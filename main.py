@@ -1,16 +1,20 @@
 from time import sleep
 import time
-Z =  '\033[1;31m' 
-F = '\033[2;32m' 
-B = '\033[2;36m'
-X = '\033[1;33m' 
-C = '\033[2;35m'
 
 import os
 try:
  from cfonts import render, say
 except:
  os.system('pip install python-cfonts')
+ os.system('pip install render')
+ 
+ 
+ 
+Z =  '\033[1;31m' 
+F = '\033[2;32m' 
+B = '\033[2;36m'
+X = '\033[1;33m' 
+C = '\033[2;35m'
 def SAJ(text, delay, add_new_line=True):
     for char in text:
         print(char, end="", flush=True)
@@ -24,3 +28,4 @@ SAJ(F+f"\033[1;32m\n                  『ᴍᴀᴅᴇ ʙʏ : ENG.DEV SAJJAD ™ 
 SAJ(C+f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", 0.07, True)
 
 SAJ(X+f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━", 0.07, True)
+print("تم تشغيل البوت بأمر المطور : @S_J_O_D 🤍")
