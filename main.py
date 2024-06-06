@@ -25,12 +25,11 @@ def SAJ(text, delay, add_new_line=True):
         print("\n", end="", flush=True)
 
 
-output = render("TRANSLATOR-BOT", colors=["white", "red"], align="center")
+output = render("NAME", colors=["white", "red"], align="center")
 print(output)
 SAJ(
     F
     + f"\033[1;32m\n                  『ᴍᴀᴅᴇ ʙʏ : ENG.DEV SAJJAD ™ \n                         ᴛᴇʟᴇɢʀᴀᴍ: https://t.me/S_J_O_D \n                            ᴄʜᴀɴɴᴇʟ : https://t.me/KING_OF_ENG  』",
-    0.07,
+    0.00,
     True,
 )
-
